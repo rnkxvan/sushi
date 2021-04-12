@@ -46,13 +46,16 @@
 
             <div class="chopsticks-group">
                 <p>Какие палочки и сколько наборов Вам нужно?</p>
-                <div class="sticks-pro">
-                    <input type="number" id="stick-pro" min='1' max='15' placeholder="Обычные палочки" name="stick"
+                <div class="stickspro-group">
+                    <input type="number" id="stick-pro" min='0' max='15' placeholder=" " name="stickpro"
                         required>
+                    <label class="stick-pro" for="stick-pro">Обычные палочки</label>
                 </div>
-                <div class="trainingsticks">
-                    <input type="number" id="stick" min='1' max='15' placeholder="Учебные палочки" name="stick"
+                <div class="trainingsticks-group">
+                    <input type="number" id="stick-training" min='0' max='15' placeholder=" " name="sticktraining"
                         required>
+                    <label for='stick-training' class="stick-training">Учебные палочки</label>
+                    
                 </div>
             </div>
 
