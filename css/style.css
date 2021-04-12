@@ -253,5 +253,42 @@ textarea::placeholder {
         transition: .3s ease;
         z-index: 2;
     }
+    p {
+        color: #000000;
+        font-size: 14px;
+        z-index: 2;
+    }
+    .sushi2 {
+        width: 50px;
+        height: 50px;
+        background-image: url(../img/sushi2.png);
+        top: 0;
+        left: 2%;
+    }
+    
+    .sushi3 {
+        width: 70px;
+        height: 70px;
+        background-image: url(../img/sushi3.png);
+        top: 15%;
+        left: 70%;
+    }
+    
+    .sushi4 {
+        width: 60px;
+        height: 60px;
+        background-image: url(../img/sushi4.png);
+        top: 40%;
+        left: -7%;
+    }
+    
+    .sushi5 {
+        width: 70px;
+        height: 70px;
+        background-image: url(../img/sushi5.png);
+        top: 80%;
+        left: 70%;
+        transform: rotate(30deg);
+    }
 
 }
