@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Oswald:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 320px;
+    padding: 20px 15px;
+    margin: auto;
+    background-color: #bbeef5;
+
+}
+
+span {
+    color: #d30000;
+}
+p {
+    color:#2b1e1e;
+    font-size: 14px;
+}
+
+form {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    width: 600px;
+    min-width: 500px;
+    background-color: #fff7f7;
+    margin: 0 auto;
+    border: 2px solid #dad6d6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px 20px 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+input,
+datalist,
+option,
+label,
+span,
+select,
+textarea {
+    resize: none;
+    outline: none;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+input {
+    padding: 20px 10px 5px 10px;
+    width: 60%;
+    background-color: #fff7f7;
+    border-bottom: 2px solid #dad6d6;
+
+}
+
+input:focus+label,
+input:not(:placeholder-shown)+label {
+    transform: translateY(-20px);
+}
+
+.name-group {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    top: 50%;
+    left: 22%;
+    transition: .3s ease;
+}
+
+.city-group {
+    position: relative;
+}
+
+.city {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    top: 50%;
+    left: 22%;
+    transition: .3s ease;
+}
+
+.adress-group {
+    position: relative;
+}
+
+.adress {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    top: 50%;
+    left: 22%;
+    transition: .3s ease;
+}
+
+.phone-group {
+    position: relative;
+}
+
+.telephone {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    top: 50%;
+    left: 22%;
+    transition: .3s ease;
+}
+.email-group {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.email {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    top: 50%;
+    left: 22%;
+    transition: .3s ease;
+}
+.chopsticks-group p {
+    margin-bottom: 20px;
+}
+
+
+#napkin {
+    display: none;
+}
+
+.napkin-label {
+    position: relative;
+    color:#2b1e1e;
+    font-size: 14px;
+
+}
+
+.napkin-label::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid #c99393;
+    border-radius: 20%;
+    top: 0;
+    left: 110%;
+}
+
+#napkin:checked+label::after {
+    background-image: url(../img/sushi.png);
+    background-size: cover;
+}
+textarea {
+    width: 60%;
+    border-radius: 8px;
+}
+textarea::placeholder {
+    padding: 15px;
+}
+.btn {
+cursor: pointer;
+transition: .3s;
+text-shadow: -1px 3px 2px rgba(0,0,0,0.36);
+border-bottom: none;
+font-size: 16px;
+color:#2b1e1e;
+}
+.btn:hover {
+    
+    transform: scale(1.1);
+    text-shadow: -1px 7px 5px rgba(0,0,0,0.28);
+}
+.image {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px) opacity(.4);
+    z-index: 0;
+}
+.sushi2 {
+    width: 130px;
+    height: 130px;
+    background-image: url(/img/sushi2.png);
+    top: -3%;
+    left: 2%;
+}
+.sushi3 {
+    width: 150px;
+    height: 150px;
+    background-image: url(/img/sushi3.png);
+    top: 15%;
+    left: 70%;
+}
+.sushi4 {
+    width: 130px;
+    height: 130px;
+    background-image: url(/img/sushi4.png);
+    top: 40%;
+    left: -7%;
+}
+.sushi5 {
+    width: 160px;
+    height: 160px;
+    background-image: url(/img/sushi5.png);
+    top: 80%;
+    left: 70%;
+    transform: rotate(30deg);
+}
