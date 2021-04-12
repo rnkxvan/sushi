@@ -9,7 +9,6 @@
 .container {
     width: 100%;
     max-width: 1400px;
-    min-width: 320px;
     padding: 20px 15px;
     margin: auto;
     background-color: #bbeef5;
@@ -29,7 +28,6 @@ form {
     font-family: 'Oswald', sans-serif;
     position: relative;
     width: 600px;
-    min-width: 500px;
     background-color: #fff7f7;
     margin: 0 auto;
     border: 2px solid #dad6d6;
@@ -70,75 +68,49 @@ input:not(:placeholder-shown)+label {
     transform: translateY(-20px);
 }
 
-.name-group {
+label {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #6d6969;
+    transition: .3s ease;
+}
+
+.name-group,
+.city-group,
+.adress-group,
+.phone-group,
+.email-group {
     position: relative;
 }
 
 .name {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #6d6969;
     top: 50%;
     left: 22%;
-    transition: .3s ease;
-}
-
-.city-group {
-    position: relative;
 }
 
 .city {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #6d6969;
     top: 50%;
     left: 22%;
-    transition: .3s ease;
-}
-
-.adress-group {
-    position: relative;
 }
 
 .adress {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #6d6969;
     top: 50%;
     left: 22%;
-    transition: .3s ease;
-}
-
-.phone-group {
-    position: relative;
 }
 
 .telephone {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #6d6969;
     top: 50%;
     left: 22%;
-    transition: .3s ease;
 }
 
 .email-group {
-    position: relative;
     margin-bottom: 50px;
 }
 
 .email {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size: 12px;
-    color: #6d6969;
     top: 50%;
     left: 22%;
-    transition: .3s ease;
 }
 
 .chopsticks-group p {
@@ -154,7 +126,6 @@ input:not(:placeholder-shown)+label {
     position: relative;
     color: #2b1e1e;
     font-size: 14px;
-
 }
 
 .napkin-label::after {
@@ -237,4 +208,50 @@ textarea::placeholder {
     top: 80%;
     left: 70%;
     transform: rotate(30deg);
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 100vw;
+        padding: 20px 15px;
+        margin: 0 auto;
+        background-color: #bbeef5;
+
+    }
+
+    form {
+        font-family: 'Oswald', sans-serif;
+        position: relative;
+        width: 100%;
+        background-color: #fff7f7;
+        margin: 0 auto;
+        border: 2px solid #dad6d6;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+        color: #201d1d;
+    }
+
+    input {
+        padding: 20px 10px 5px 10px;
+        width: 60%;
+        background-color: #fff7f7;
+        border-bottom: 2px solid #dad6d6;
+    }
+
+    textarea {
+        width: 80%;
+        border-radius: 8px;
+    }
+    label {
+        position: absolute;
+        letter-spacing: 1px;
+        font-size: 12px;
+        color: #000000;
+        transition: .3s ease;
+        z-index: 2;
+    }
+
 }
