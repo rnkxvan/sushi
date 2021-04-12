@@ -200,28 +200,28 @@ color:#2b1e1e;
 .sushi2 {
     width: 130px;
     height: 130px;
-    background-image: url(/img/sushi2.png);
+    background-image: url(../img/sushi2.png);
     top: -3%;
     left: 2%;
 }
 .sushi3 {
     width: 150px;
     height: 150px;
-    background-image: url(/img/sushi3.png);
+    background-image: url(../img/sushi3.png);
     top: 15%;
     left: 70%;
 }
 .sushi4 {
     width: 130px;
     height: 130px;
-    background-image: url(/img/sushi4.png);
+    background-image: url(../img/sushi4.png);
     top: 40%;
     left: -7%;
 }
 .sushi5 {
     width: 160px;
     height: 160px;
-    background-image: url(/img/sushi5.png);
+    background-image: url(../img/sushi5.png);
     top: 80%;
     left: 70%;
     transform: rotate(30deg);
