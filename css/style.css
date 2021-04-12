@@ -19,8 +19,9 @@
 span {
     color: #d30000;
 }
+
 p {
-    color:#2b1e1e;
+    color: #2b1e1e;
     font-size: 14px;
 }
 
@@ -124,6 +125,7 @@ input:not(:placeholder-shown)+label {
     left: 22%;
     transition: .3s ease;
 }
+
 .email-group {
     position: relative;
     margin-bottom: 50px;
@@ -138,6 +140,7 @@ input:not(:placeholder-shown)+label {
     left: 22%;
     transition: .3s ease;
 }
+
 .chopsticks-group p {
     margin-bottom: 20px;
 }
@@ -149,7 +152,7 @@ input:not(:placeholder-shown)+label {
 
 .napkin-label {
     position: relative;
-    color:#2b1e1e;
+    color: #2b1e1e;
     font-size: 14px;
 
 }
@@ -170,26 +173,31 @@ input:not(:placeholder-shown)+label {
     background-image: url(../img/sushi.png);
     background-size: cover;
 }
+
 textarea {
     width: 60%;
     border-radius: 8px;
 }
+
 textarea::placeholder {
     padding: 15px;
 }
+
 .btn {
-cursor: pointer;
-transition: .3s;
-text-shadow: -1px 3px 2px rgba(0,0,0,0.36);
-border-bottom: none;
-font-size: 16px;
-color:#2b1e1e;
+    cursor: pointer;
+    transition: .3s;
+    text-shadow: -1px 3px 2px rgba(0, 0, 0, 0.36);
+    border-bottom: none;
+    font-size: 16px;
+    color: #2b1e1e;
 }
+
 .btn:hover {
-    
+
     transform: scale(1.1);
-    text-shadow: -1px 7px 5px rgba(0,0,0,0.28);
+    text-shadow: -1px 7px 5px rgba(0, 0, 0, 0.28);
 }
+
 .image {
     position: absolute;
     background-repeat: no-repeat;
@@ -197,6 +205,7 @@ color:#2b1e1e;
     filter: blur(1px) opacity(.4);
     z-index: 0;
 }
+
 .sushi2 {
     width: 130px;
     height: 130px;
@@ -204,6 +213,7 @@ color:#2b1e1e;
     top: -3%;
     left: 2%;
 }
+
 .sushi3 {
     width: 150px;
     height: 150px;
@@ -211,6 +221,7 @@ color:#2b1e1e;
     top: 15%;
     left: 70%;
 }
+
 .sushi4 {
     width: 130px;
     height: 130px;
@@ -218,6 +229,7 @@ color:#2b1e1e;
     top: 40%;
     left: -7%;
 }
+
 .sushi5 {
     width: 160px;
     height: 160px;
